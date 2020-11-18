@@ -13,7 +13,7 @@
   <a class="btn btn-primary btn-lg" href="#" role="button">Add Course</a>
 </div>
 
-<div class="row" style="margin: 0 auto">
+<div class="row" style="margin: 0 auto 3rem auto">
     <div class="col-md-3" style="margin: 2rem auto">
         <div class="card" style="width: 18rem;">
             <img src="https://cdn4.vectorstock.com/i/thumb-large/22/63/mathematics-circular-flat-vector-20232263.jpg" class="card-img-top" alt="...">

@@ -4,9 +4,11 @@
 <div>
 @include('layouts.navbar')
 </div>
-<div class="col-md-4">
-<form>
+<div class="col-md-4" style="margin: auto;">
 <br>
+<h1>Login</h1>
+<hr>
+<form>
   <div class="form-group">  
   <label class="radio-inline"><input type="radio" name="optradio" checked>&nbsp Student</label> &nbsp
   <label class="radio-inline"><input type="radio" name="optradio">&nbspTeacher</label>
@@ -24,7 +26,7 @@
     <input type="checkbox" class="form-check-input" id="exampleCheck1">
     <label class="form-check-label" for="exampleCheck1">Keep me logged in.</label>
   </div>
-  <button type="submit" class="btn btn-primary">Submit</button>
+  <button type="submit" class="btn btn-primary"><a href="{{ route('adminlogin')}}" style="text-decoration:none; color:white;">Login</a></button>&nbsp
   <button type="submit" class="btn btn-light"><a href="{{ route('signup')}}" style="text-decoration:none">New User? Signup here</a></button>
 </form>
 </div>

@@ -34,5 +34,9 @@ class HomeController extends BaseController
     {
         return view('course1');
     }
+    public static function showAdminlogin()
+    {
+        return view('adminlogin');
+    }
 }
 

@@ -4,8 +4,10 @@
 <div>
 @include('layouts.navbar')
 </div>
-
-<div class="row" style="margin: 0 auto">
+<br>
+<h1> &nbspAll Courses</h1>
+<hr>
+<div class="row" style="margin: 0 auto 3rem auto">
     <div class="col-md-3" style="margin: 2rem auto">
         <div class="card" style="width: 18rem;">
             <img src="https://cdn4.vectorstock.com/i/thumb-large/22/63/mathematics-circular-flat-vector-20232263.jpg" class="card-img-top" alt="...">

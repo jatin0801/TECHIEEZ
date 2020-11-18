@@ -47,3 +47,4 @@ Route::get('/helpdesk','HomeController@showHelpdesk')->name('helpdesk');
 Route::get('/homepage','HomeController@showHomepage')->name('homepage');
 Route::get('/signup','HomeController@showSignup')->name('signup');
 Route::get('/course1','HomeController@showCourse1')->name('course1');
+Route::get('/adminlogin','HomeController@showAdminlogin')->name('adminlogin');

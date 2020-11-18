@@ -4,9 +4,11 @@
 <div>
 @include('layouts.navbar')
 </div>
-<div class="col-md-4">
+<div class="col-md-4" style="margin: auto;">
+<br>
+<h1>Sign Up</h1>
+<hr>
 <form>
-  <br>
   <div class="form-group">  
   <label class="radio-inline"><input type="radio" name="optradio" checked>&nbsp Student</label> &nbsp
   <label class="radio-inline"><input type="radio" name="optradio">&nbspTeacher</label>
@@ -28,7 +30,7 @@
     <label for="exampleInputPassword1">Confirm Password</label>
     <input type="password" class="form-control" id="exampleInputPassword1">
   </div>
-  <button type="submit" class="btn btn-primary">Sign Up</button>
+  <button type="submit" class="btn btn-primary">Sign Up</button> &nbsp
   <button type="submit" class="btn btn-light"><a href="{{ route('login')}}" style="text-decoration:none"> Already Registered? Login here.</a></button>
 </form>
 </div>

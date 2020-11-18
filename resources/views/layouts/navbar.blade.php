@@ -18,14 +18,14 @@
   </button>
   <div class="collapse navbar-collapse" id="navbarNav">
     <ul class="navbar-nav">
-      <li class="nav-item active">
+      <li class="nav-item">
         <a class="nav-link" href="{{ route('courses')}}">Courses <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" style= "align:right" href="{{ route('login')}}">Login</a>
+        <a class="nav-link" style= "align:right" href="{{ route('login')}}">Login<span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="{{ route('helpdesk')}}">Helpdesk</a>
+        <a class="nav-link" href="{{ route('helpdesk')}}">Helpdesk<span class="sr-only">(current)</span></a>
       </li>
     </ul>
   </div>
