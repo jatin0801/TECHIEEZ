@@ -11,8 +11,8 @@
     <title>HOPE</title>
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-  <a class="navbar-brand" href="{{ route('homepage')}}">Techiezz</a>
+    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color:#000000; color:blanchedalmond;" fixed-top>
+  <a class="navbar-brand" href="{{ route('homepage')}}"><img src="https://i2.wp.com/lexquest.in/wp-content/uploads/2018/01/1-4.jpg?ssl=1" width="40" height="40"> </a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -30,7 +30,16 @@
     </ul>
   </div>
 </nav>
-<br><br>
+
+
+<div class="container-fluid">
+    <div class="row">
+        <footer class="fixed-bottom" style= "background-color:#000000; text-align: center; color: blanchedalmond;">
+            <p><center>HOPE of people everywhere @ 2019</center></p>
+        </footer>   
+    </div>
+</div>
+
 
     <!-- Optional JavaScript; choose one of the two! -->
 

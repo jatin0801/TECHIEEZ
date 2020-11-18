@@ -37,6 +37,10 @@ Route::get('/course1', function () {
     return view('course1');
 });
 
+Route::get('/adminlogin', function () {
+    return view('adminlogin');
+});
+
 Route::get('/courses','HomeController@showCourses')->name('courses');
 Route::get('/login','HomeController@showLogin')->name('login');
 Route::get('/helpdesk','HomeController@showHelpdesk')->name('helpdesk');

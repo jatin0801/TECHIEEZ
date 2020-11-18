@@ -1,9 +1,9 @@
 <html>
-<title>Courses</title>
+<title>Home Page</title>
 <body>
 <div>
 @include('layouts.navbar')
-</div>
+</div>  
 <br>
 <div class="jumbotron jumbotron-fluid">
     <div class="row">
@@ -23,7 +23,7 @@
             <p class="lead">this is a hackerman team pro coders indias best in class hackers.</p>
         </div>
         <div class="col-md 6" >
-        <img src="https://lh3.googleusercontent.com/proxy/7v2Ru5LcDknAra7RrFrT-yc9xAJMEC5mEBLT1EA6BkbbYBki7VdCmy288Xpew4ATgI_kKykpBz8CDt2N8k5lOnv2APVeQY-4cCBfUhAlXla_KF-vEucL" class="rounded float-left" alt="...">
+        <img src="https://cdn-media-1.freecodecamp.org/images/TKIz7QINBW86qDpRxZj03KU7DiMWcMW08H25" height="300" width="600" class="rounded float-left" alt="...">
         </div>
     </div>
 </div>

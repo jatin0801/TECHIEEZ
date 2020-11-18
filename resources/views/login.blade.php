@@ -1,5 +1,5 @@
 <html>
-<title>Courses</title>
+<title>Login</title>
 <body>
 <div>
 @include('layouts.navbar')
