@@ -25,7 +25,7 @@
     <label class="form-check-label" for="exampleCheck1">Keep me logged in.</label>
   </div>
   <button type="submit" class="btn btn-primary">Submit</button>
-  <button type="submit" class="btn btn-light">New User? Signup here</button>
+  <button type="submit" class="btn btn-light"><a href="{{ route('signup')}}" style="text-decoration:none">New User? Signup here</a></button>
 </form>
 </div>
 </body>

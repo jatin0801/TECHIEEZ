@@ -29,7 +29,7 @@
     <input type="password" class="form-control" id="exampleInputPassword1">
   </div>
   <button type="submit" class="btn btn-primary">Sign Up</button>
-  <button type="submit" class="btn btn-light">Already Registered? Login here.</button>
+  <button type="submit" class="btn btn-light"><a href="{{ route('login')}}" style="text-decoration:none"> Already Registered? Login here.</a></button>
 </form>
 </div>
 </body>

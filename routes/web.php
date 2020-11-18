@@ -32,3 +32,14 @@ Route::get('/login', function () {
 Route::get('/signup', function () {
     return view('signup');
 });
+
+Route::get('/course1', function () {
+    return view('course1');
+});
+
+Route::get('/courses','HomeController@showCourses')->name('courses');
+Route::get('/login','HomeController@showLogin')->name('login');
+Route::get('/helpdesk','HomeController@showHelpdesk')->name('helpdesk');
+Route::get('/homepage','HomeController@showHomepage')->name('homepage');
+Route::get('/signup','HomeController@showSignup')->name('signup');
+Route::get('/course1','HomeController@showCourse1')->name('course1');
