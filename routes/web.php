@@ -41,6 +41,10 @@ Route::get('/adminlogin', function () {
     return view('adminlogin');
 });
 
+Route::get('/doubtforum', function () {
+    return view('doubtforum');
+});
+
 Route::get('/courses','HomeController@showCourses')->name('courses');
 Route::get('/login','HomeController@showLogin')->name('login');
 Route::get('/helpdesk','HomeController@showHelpdesk')->name('helpdesk');
@@ -48,3 +52,4 @@ Route::get('/homepage','HomeController@showHomepage')->name('homepage');
 Route::get('/signup','HomeController@showSignup')->name('signup');
 Route::get('/course1','HomeController@showCourse1')->name('course1');
 Route::get('/adminlogin','HomeController@showAdminlogin')->name('adminlogin');
+Route::get('/doubtforum','HomeController@showDoubtforum')->name('doubtforum');

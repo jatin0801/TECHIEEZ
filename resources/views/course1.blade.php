@@ -11,7 +11,7 @@
   <hr class="my-4">
   <p>Hope you enjoy the course!</p>
   <br>
-  <button type="button" class="btn btn-outline-secondary">Doubt Forum</button>
+  <button type="button" class="btn btn-outline-secondary"><a href="{{ route('doubtforum')}}" style="text-decoration:none; color:black;">Doubt Forum</a></button>
 </div>
 <div class="col-md-6">
     <h1>Progress</h1><hr>

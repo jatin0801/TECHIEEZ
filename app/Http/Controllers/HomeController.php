@@ -38,5 +38,9 @@ class HomeController extends BaseController
     {
         return view('adminlogin');
     }
+    public static function showDoubtforum()
+    {
+        return view('doubtforum');
+    }
 }
 
